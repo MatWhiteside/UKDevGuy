@@ -1,4 +1,5 @@
 import pygame
+import sys
 
 # Create width and height constants
 WINDOW_WIDTH = 800
@@ -32,7 +33,7 @@ while game_running:
 
 # Uninitialize all pygame modules and quit the program
 pygame.quit()
-quit()
+sys.exit()
 
 
 
