@@ -78,11 +78,3 @@ while game_running:
 # Uninitialize all pygame modules and quit the program
 pygame.quit()
 sys.exit()
-
-
-
-
-
-
-
-
