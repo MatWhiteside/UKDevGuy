@@ -32,6 +32,11 @@ print(42+5j)
 print(42+0j)
 print(0+42j)
 
+# Examples of converting numbers
+print(int(42.0))
+print(float(42))
+print(complex(42, 5))
+
 # Boolean examples
 print(True)
 print(False)
