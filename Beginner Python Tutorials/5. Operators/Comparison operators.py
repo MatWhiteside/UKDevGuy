@@ -1,0 +1,6 @@
+print("Equal to:", 5==6)
+print("Not equal to:", 5!=6)
+print("Less than:", 5<6)
+print("Less than or equal to:", 5<=6)
+print("Greater than:", 5>6)
+print("Greater than or equal to:", 5>=6)
