@@ -20,9 +20,6 @@ chicken = Product("Chickens", 7.50, 10)
 # Put our products into a list
 product_list = [apples, bananas, cakes, chicken]
 
-totals = [apples.get_total(), bananas.get_total(), cakes.get_total(), chicken.get_total()]
-print(totals)
-
 # Output all of our products
 for product in product_list:
     # Note that product.price:.2f outputs the product price
