@@ -17,6 +17,11 @@ for k in range(1, 11):
     # kmeans.inertia_ represents SSD
     ssd_list.append(kmeans.inertia_)
 
+# Visualise data
+plt.title("Raw Data")
+plt.scatter(data[:,0], data[:,1])
+plt.show()
+
 # Plot our results into a line graph
 plt.title("Sum of Squared Distances vs k")
 plt.xticks(np.arange(min(x), max(x)+1, 1.0))
