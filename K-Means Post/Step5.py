@@ -56,5 +56,3 @@ for i in range(0, iterations):
     # Show our result
     plt.title('Centroids recalculated')
     plt.show()
-
-

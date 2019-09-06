@@ -78,6 +78,3 @@ plt.xlabel("k")
 plt.ylabel("Sum of Squared Distances")
 plt.plot(x, ssd_list, 'o-')
 plt.show()
-    
-
-

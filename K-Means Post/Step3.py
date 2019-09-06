@@ -33,5 +33,3 @@ plt.scatter(centroids[:,0], centroids[:,1], marker="x", color="red")
 # Show our result
 plt.title('Distances Measured in Step 3')
 plt.show()
-
-

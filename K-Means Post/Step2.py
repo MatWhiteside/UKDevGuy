@@ -13,9 +13,3 @@ plt.title('Data with Centroids')
 plt.scatter(data[:,0], data[:,1])
 plt.scatter(centroids[:,0], centroids[:,1], marker="x", color="red")
 plt.show()
-
-
-
-
-
-

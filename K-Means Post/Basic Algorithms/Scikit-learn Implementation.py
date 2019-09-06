@@ -13,9 +13,3 @@ cluster_labels = kmeans.predict(data)
 plt.title('Clustered Data')
 plt.scatter(data[:,0], data[:,1], c=cluster_labels)
 plt.show()
-
-
-
-
-
-
